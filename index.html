@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+    
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <title>Relationships</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+  <script> alert('Turn sound on')</script>
+    
+</head>
+    
+<body>
+    
+    <section class="intro">
+        <div class="inner">
+            <div class="content">
+                <h1>Relationships</h1>
+                <a class="btn" href="#one">one</a>
+                <a class="btn2" href="#two">two</a>
+                <a class="btn3" href="#three">three</a>
+            </div>
+        </div>
+    </section>
+    
+    <a class="ct-btn-scroll ct-js-btn-scroll" href="#"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+    
+    <div id="about">
+    
+    
+
+    
+    
+    </div>
+     
+    <div class="parallax" id="one" onmouseover="PlaySound('mySound')" 
+        onmouseout="StopSound('mySound')" >
+        
+    <audio id='mySound' src="music/one.wav"></audio>
+        
+    </div>
+   
+    
+    
+    <div class="parallax2" id="two"  onmouseover="PlaySound('mySound2')" 
+        onmouseout="StopSound('mySound2')">
+    
+    <audio id='mySound2' src="music/two.wav"></audio>
+        
+    </div>
+    
+
+    
+    <div class="parallax3" id="three"  onmouseover="PlaySound('mySound3')" 
+        onmouseout="StopSound('mySound3')">
+    
+    <audio id='mySound3' src="music/three.wav"></audio>
+    </div>
+    
+    
+  
+    
+    <script>
+    function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+    function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+    </script>
+        <script>
+    function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+    function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+    </script>
+        <script>
+    function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+    function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+    </script>
+    
+    
+</body>

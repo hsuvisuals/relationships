@@ -1,0 +1,353 @@
+@import url ('http://fonts.googleapis.com/css?family=Raleway');
+@import url ('http://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/background2.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+ 
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 800%;
+    margin-bottom: 40px;
+}
+
+.btn {
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #a1d3f9;
+    font-size: 150%;
+    padding: 10px 20px;
+    border: solid #a1d3f9 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover {  
+    color: #fff;
+    border: solid #fff 3px;
+}
+
+.btn2 {
+     border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #a1d3f9;
+    font-size: 150%;
+    padding: 10px 20px;
+    border: solid #a1d3f9 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+
+
+
+
+
+
+.btn3 {
+     border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #a1d3f9;
+    font-size: 150%;
+    padding: 10px 20px;
+    border: solid #a1d3f9 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.btn3:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+
+.btn4 {
+     border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #a1d3f9;
+    font-size: 150%;
+    padding: 10px 20px;
+    border: solid #a1d3f9 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.btn4:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
+.ct-btn-scroll {
+  width: 49px;
+  height: 49px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 500px;
+  z-index: 9;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+   
+}
+
+.ct-btn-scroll img {
+     animation-name: bounce;
+    animation-duration: 2s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   40% {transform: translateY(-30px);} 
+   60% {transform: translateY(-15px);} 
+} 
+
+
+#one{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/one.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+#two{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/two.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+#three{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url(../img/three.jpg);
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+
+
+.parallax {
+    
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url(../img/one.jpg);
+      background-size: cover;
+    
+}
+ 
+.parallax:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../img/one.jpg);
+      background-size: cover;
+      opacity: 0.5;
+      /*mix-blend-mode: hard-light;*/
+ 
+}
+ 
+.parallax:hover:before {
+      animation: animate .2s infinite;
+}
+ 
+@keyframes animate {
+      0% {
+            background-position: 0 0;
+            filter: hue-rotate(0deg);
+      }
+      10% {
+            background-position: 4px 0;
+      }
+      20% {
+            background-position: -4px 0;
+      }
+      30% {
+            background-position: 12px 0;
+      }
+      40% {
+            background-position: -16px 0;
+      }
+      50% {
+            background-position: -24px 0;
+      }
+      60% {
+            background-position: -52px 0;
+      }
+      70% {
+            background-position: 0 22px;
+      }
+      80% {
+            background-position: -40px -10px;
+      }
+      100% {
+            background-position: 0 0;
+            filter: hue-rotate(360deg);
+      }
+}
+
+@keyframes effect {
+      0% {
+            background-position: 0 0;
+            filter: hue-rotate(0deg);
+      }
+      10% {
+            background-position: 5px 0;
+      }
+      20% {
+            background-position: -25px 0;
+      }
+      30% {
+            background-position: 5px 0;
+      }
+      40% {
+            background-position: -25px 0;
+      }
+      50% {
+            background-position: -24px 0;
+      }
+      60% {
+            background-position: -52px 0;
+      }
+      70% {
+            background-position: 0 22px;
+      }
+      80% {
+            background-position: -40px -10px;
+      }
+      100% {
+            background-position: 0 0;
+            filter: hue-rotate(360deg);
+      }
+}
+
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+        filter: hue-rotate(0);
+    }
+    20% {
+        transform: translate(-5px, 5px);
+    }
+    40% {
+        transform: translate(-5px, -5px);
+    }
+    60% {
+        transform: translate(5px, 5px);
+    }
+    80% {
+        transform: translate(5px, -5px);
+    }
+    to {
+        transform: translate(0);
+        filter: hue-rotate(360deg);
+            
+    }
+}
+
+
+
+
+.parallax2 {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url(../img/two.jpg);
+      background-size: cover;
+}
+ 
+.parallax2:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../img/two.jpg);
+      background-size: cover;
+      opacity: 0.5;
+      /*mix-blend-mode: hard-light;*/
+ 
+}
+ 
+.parallax2:hover:before {
+      animation: effect 1s infinite linear;
+}
+
+
+
+.parallax3 {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background: url(../img/three.JPG);
+      background-size: cover;
+}
+ 
+.parallax3:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../img/three.JPG);
+      background-size: cover;
+      opacity: 0.5;
+      /*mix-blend-mode: hard-light;*/
+ 
+}
+ 
+.parallax3:hover:before {
+      animation: glitch .3s cubic-bezier(.25, .46, .45, .94) both infinite
+
+
+
+
